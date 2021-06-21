@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PengtaoNing/github-action-package.git"
+    "url": "git+https://github.com/ningpengtao-coder/github-action-package.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PengtaoNing/github-action-package/issues"
+    "url": "https://github.com/ningpengtao-coder/github-action-package/issues"
   },
-  "homepage": "https://github.com/PengtaoNing/github-action-package#readme"
+  "homepage": "https://github.com/ningpengtao-coder/github-action-package#readme"
 }
