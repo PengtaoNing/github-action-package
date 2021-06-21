@@ -25,9 +25,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/ORG_OR_USERNAME
-          scope: '@ORG_OR_USERNAME'
+          registry-url: https://npm.pkg.github.com
+          scope: '@PengtaoNing'
       - run: npm ci
+      - run: echo "registry=https://npm.pkg.github.com/@PengtaoNing" >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
