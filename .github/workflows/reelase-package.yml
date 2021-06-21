@@ -25,8 +25,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@PengtaoNing'
+          registry-url: https://npm.pkg.github.com/ORG_OR_USERNAME
+          scope: '@ORG_OR_USERNAME'
       - run: npm ci
       - run: npm publish
         env:
